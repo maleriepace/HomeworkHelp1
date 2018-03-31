@@ -82,6 +82,7 @@ h6 {
 }
 
 .text-center {
+  /* this class isn't centering text */
   text-shadow: 2px 2px 0px #fff;
   color: #000000;
 }
@@ -128,4 +129,22 @@ h6 {
 
 .show {
   display: block;
+}
+
+.two-columns {
+  display: table;
+  table-layout: fixed;
+
+  width: 100%;
+}
+.two-columns div {
+  display: table-cell;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#sub-main div {
+  vertical-align: top;
 }
